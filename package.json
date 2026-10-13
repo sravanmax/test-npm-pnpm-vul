@@ -1,0 +1,26 @@
+{
+  "name": "test-npm-pnpm-vul",
+  "version": "1.0.0",
+  "description": "Test pnpm project with vulnerable methods for Veracode SCA scanning",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "pnpm",
+    "veracode",
+    "vulnerable"
+  ],
+  "author": "Test User",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.18.0",
+    "lodash": "4.17.11",
+    "minimist": "1.2.0"
+  },
+  "devDependencies": {
+    "express": "4.16.2"
+  }
+}
